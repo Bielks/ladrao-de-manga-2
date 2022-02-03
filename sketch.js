@@ -138,7 +138,7 @@ class PontoDeJogar {
         bodyA: this.bodyA,
         pointB: this.pontoB,
         stffness: this.stffness,
-        length: this.length
+        length: this.length,
     }
     this.pontodejogar = Constraint.create(options);
     World.add(world, this.pontodejogar);
